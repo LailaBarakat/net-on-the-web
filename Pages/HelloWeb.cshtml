@@ -1,0 +1,19 @@
+﻿@page
+@model net_on_the_web.Pages.HelloWebModel
+@{
+}
+<p>@Model.Message the time is @DateTime.Now</p>
+<p>@Model.Laila.Name</p>
+<p>@Model.Laila.Id</p>
+<p>@Model.Laila.Class.Name</p>
+
+<p>
+    <ul>
+        <li>@Model.Laila.Name --  @Model.Laila.Class.Name --  @Model.Laila.Class.Teacher.Name</li>
+        <li>@Model.Ahmed.Name -- @Model.Ahmed.Class.Name  -- @Model.Ahmed.Class.Teacher.Name</li>
+        <li>@Model.Alaa.Name  --  @Model.Alaa.Class.Name  --  @Model.Alaa.Class.Teacher.Name</li>
+        <li>@Model.Sarah.Name --  @Model.Sarah.Class.Name --  @Model.Sarah.Class.Teacher.Name</li>
+
+    </ul>
+    
+</p>
